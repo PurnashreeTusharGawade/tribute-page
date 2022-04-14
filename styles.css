@@ -66,11 +66,10 @@ li,
 
 #quote {
     margin-top: 4rem;
-    width: 40vw;
 }
 
 #conclusion {
-    font-size: 2rem;
+    font-size: 1.5rem;
     margin-top: 4rem;
 }
 
@@ -96,9 +95,10 @@ li,
 
 @media (max-width: 479px) {
 
-    #quote,
+
     #tribute-info {
-        width: 90vw;
+        width: 85vw;
+        padding-left: 0;
     }
 
     h1 {
@@ -107,17 +107,20 @@ li,
 
     h2 {
         font-size: 1.5rem;
+        text-align: left;
+        margin-left: 0;
     }
 
     #conclusion {
         font-size: 1.5rem;
     }
-}
 
-@media(max-width:1440px) {
-
-    #quote,
-    #tribute-info {
-        width: 60vw;
+    #img-div {
+        padding: 10px;
     }
+
+    #quote {
+        width: 85vw;
+    }
+
 }
